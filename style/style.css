@@ -1,0 +1,450 @@
+@import url('https://fons.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
+
+body {
+    background-image: url("../imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+.ind{
+    bottom: 50px;
+    position: relative;
+}
+.Encabezado_Principal {
+    background-color:rgba(255, 255, 255, 0);
+}
+
+.Menu_Principal{
+    background-color: #2d32c300;
+}
+
+.Lista{
+    text-align: left;
+    left: 20%;
+    display: flex;
+    position: relative;
+    margin-top: -40px;
+}
+
+.Lista .Lista_Menu{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+
+.Lista:hover .Texto_Menu {
+    color: #ccc;
+}
+
+.Lista:hover .Lista_Menu:hover {
+    color: white;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+.Lista_Menu {
+    display: inline;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.Texto_Menu {
+    color: white;
+    text-decoration: none;
+    transform: 0.25s ease;
+}
+
+.Lista_Menu .Texto_Menu:hover{
+    color: white;
+    transition: 1s;
+    font-size: 30px; 
+}
+
+.Titulo_Principal {
+    text-align: center;
+    font-size: 40px;
+}
+
+.Titulo_Tarjeta {
+    text-align: center;
+    font-size: 40px;
+}
+
+.logo {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 65px 48px 16px 96px;
+
+}
+
+.Tarjeta,
+.Tarjeta4,
+.Tarjeta3 {
+    box-shadow: 8px 8px 16px #62626267;
+    display: inline-block;
+    align-items: center;
+    background-color: #62626250;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 450px;
+    transition: background-color, transform  0.10s ease;
+    left: 100px;
+    position: relative;
+}
+
+.Tarjeta:hover
+{
+    transform: translate(-15px, -20px);
+    background-color: #00000036;
+    color: rgb(0, 0, 0);
+}
+
+.Tarjeta4:hover
+{
+    transform: translate(-15px, -20px);
+    background-color:  #00000036;
+    color: rgb(0, 0, 0);
+}
+
+.Tarjeta3:hover
+{
+    transform: translate(-15px, -20px);
+    background-color:  #00000036;
+    color: rgb(0, 0, 0);
+}
+
+.Tarjeta2{
+    display: inline-block;
+    align-items: center;
+    background-color: #725deb3f;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 450px;
+    top: -55px;
+    position: relative;
+    transition: background-color 1s ease;
+}
+
+.Tarjeta2:hover{
+    transform: translate(-15px, -20px);
+    background-color:  #00000036;
+    color: rgb(0, 0, 0);
+}
+
+.Tarjeta3{
+    top: 12px;
+    position: relative;
+}
+.Tarjeta4{
+    top: 16px;
+    position: relative;
+}
+
+.Tarjeta_S {
+    box-shadow: 8px 8px 16px #62626267;
+    display: inline-block;
+    align-items: center;
+    background-color: #62626250;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 450px;
+    transition: background-color, transform  0.10s ease;
+    left: 100px;
+    position: relative;
+}
+
+.Tarjeta_S:hover {
+    transform: translate(-15px, -20px);
+    background-color:  #00000036;
+    color: rgb(0, 0, 0);
+}
+
+.Tarjeta_S_2{
+    box-shadow: 8px 8px 16px #62626267;
+    display: inline-block;
+    align-items: center;
+    background-color: #62626250;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 450px;
+    transition: background-color, transform  0.10s ease;
+    left: 100px;
+    top: -55px;
+    position: relative;
+}
+
+.Tarjeta_S_2:hover{
+    transform: translate(-15px, -20px);
+    background-color:  #00000036;
+    color: rgb(0, 0, 0);
+}
+
+.Tarjeta_S_3{
+    box-shadow: 8px 8px 16px #62626267;
+    display: inline-block;
+    align-items: center;
+    background-color: #62626250;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 450px;
+    transition: background-color, transform  0.10s ease;
+    left: 100px;
+    top: -37px;
+    position: relative;
+}
+
+.Tarjeta_S_3:hover{
+    transform: translate(-15px, -20px);
+    background-color:  #00000036;
+    color: rgb(0, 0, 0);
+}
+
+.Imagen {
+    max-width: 200px;
+    max-height: 200px;
+    left: 50px;
+    display: block;
+    position: relative;
+}
+
+.Contenido {
+    flex-grow: 1;
+}
+
+.Parrafo_Tarjeta{
+    text-align: justify;
+    color: white;
+}
+
+.Titulo_Terciario, .titulo_texto{
+    text-align: justify;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    top: 250px;
+    right: -50px;
+    position: relative;
+    overflow: hidden;
+}
+.container2 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    top: 150px;
+    position: relative;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    top: 80px;
+    right: -50px;
+    position: relative;
+}
+
+.imagen2 {
+    flex: 1; 
+    padding: 20px;
+}
+
+.contenido1 {
+    flex: 1; 
+    padding: 10px;
+    right: 150px;
+    bottom: 20px;
+    position: relative;
+}
+
+.contenido2 {
+    flex: 1; 
+    padding: 150px;
+    right: 200px;
+    right: 50px;
+    bottom: 20px;
+    position: relative;
+}
+
+.contenido3 {
+    flex: 1; 
+    padding: 10px;
+    right: 150px;
+    bottom: 20px;
+    position: relative;
+}
+
+.Imagen_QS {
+    width: 350px;
+    height: 250px;
+}
+
+.Imagen_QS_I {
+    width: 350px;
+    height: 250px;
+    right: 50px;
+    position: relative;
+}
+
+.Texto_QS {
+    text-align: justify;
+    color: #ccc;
+}
+
+.parrafo-principla {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.Titulo_principal {
+    text-align: center;
+    font-size: 40px;
+    color: #ccc;
+}
+
+.parrafo-principla, 
+.Titulo_principal {
+    bottom: 30px;
+    position: relative;
+}
+.caja {
+    left: 83%;
+    top: -60px;
+    position: relative;
+}
+.encabezado_boton{
+    position: relative;
+    display: flex;
+    gap: 25px;
+  }
+
+.encabezado_boton .empaquetado{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+  }
+.encabezado_boton .empaquetado:hover{
+    width: 180px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+  }
+.encabezado_boton .empaquetado::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+    background: linear-gradient(45deg, var(--i), var(--j));
+    opacity: 0;
+    transition: 0.5s;
+   
+  }
+
+.encabezado_boton .empaquetado:hover::before{
+    opacity: 1;
+  }
+  .encabezado_boton .empaquetado::after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    background: linear-gradient(45deg, var(--i), var(--j));
+    opacity: 0;
+    transition: 0.5s;
+    z-index: -1;
+    filter: blur(15px);
+  }
+
+.encabezado_boton .empaquetado:hover::after{
+    opacity: 0.5;
+  }
+  ul li i{
+    color: #777;
+    font-size:  1.75em !important;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+    
+  }
+.encabezado_boton .empaquetado:hover i{
+    transform: scale(0);
+    font-size: 1.75em;
+    transition-delay: 0.25s;
+  }
+  ul li span{
+    position: absolute;
+  }
+.encabezado_boton .empaquetado .titulo{
+    color: #fff;
+    font-size: 1.1em !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+.encabezado_boton .empaquetado:hover .titulo{
+    transform: scale(1);
+    transition-delay: 0.25s;
+  }
+h1 {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.61);
+    color: white;
+}
+h2 {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.589);
+    color: white;
+  }
+
+h3 {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    color: white;
+  }
+
+strong {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    color: white;
+  }
+
+  .video {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
